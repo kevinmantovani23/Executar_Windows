@@ -94,7 +94,7 @@ public class TelaExecutar extends JFrame {
 		
 		CancelController cancel = new CancelController (this); // Pega o JFrame e leva para a classe CancelController
 		RunController run = new RunController(textField, this);  // Pega o texto digitado e o JFrame, e os levam para a classe RunController
-		SearchController search = new SearchController(textField);
+		SearchController search = new SearchController(textField); // Ativa o JFileChooser
 		
 		lblNewLabel_2 = new JLabel("New label");
 		lblNewLabel_2.setBounds(10, 11, 95, 95);
