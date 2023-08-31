@@ -98,7 +98,7 @@ public class TelaExecutar extends JFrame {
 		
 		lblNewLabel_2 = new JLabel("New label");
 		lblNewLabel_2.setBounds(10, 11, 95, 95);
-		lblNewLabel_2.setIcon(new ImageIcon("C:\\ws-eclipse\\Desafio_Executar\\Executar_Simulador\\img\\Sem Título-1.png"));
+		lblNewLabel_2.setIcon(new ImageIcon(System.getProperty("user.dir") + "\\img\\java_logo.png"));
 		contentPane.add(lblNewLabel_2);
 		btnNewButton.addActionListener(run); // Faz o botão "OK" executar o ActionListener da classe RunController
 		btnNewButton_1.addActionListener(cancel); // Faz o botão "Cancelar" executar o ActionListener da classe CancelController

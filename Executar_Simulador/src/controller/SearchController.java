@@ -19,7 +19,7 @@ public class SearchController implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		//Criando os filtros e pegando o diretório desktop do Sistema
 		FileNameExtensionFilter filtro = new FileNameExtensionFilter("Arquivos Executáveis (.exe)", "exe");
-		String diretorioBase = System.getProperty("user.home") +"/Desktop";
+		String diretorioBase = System.getProperty("user.home") +"\\Desktop";
 		File dir = new File(diretorioBase);
 		JFileChooser choose = new JFileChooser();
 		// Aplicando o filtro, aceitando apenas arquivos .exe
